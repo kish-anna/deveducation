@@ -9,7 +9,7 @@ namespace Benchmark
 {
     class Program
     {
-        private static int _N = 1;
+        private static int _N = 100;
         private static double[,] _benchmark = new double[25, 9];
         private static int[] _sizes = {100, 100000, 1000000};
 
